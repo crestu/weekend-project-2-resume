@@ -1,0 +1,49 @@
+body {
+    background-color: lightblue;
+}
+body{
+    color: white;
+}
+#contact{
+    text-align: center;
+    cursor:pointer;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    }
+#info{
+    text-align: left;
+    cursor:pointer;
+    position: absolute;
+    top: 50%;
+}
+a:link{
+    color:white;
+}
+a:hover{
+    color:red;
+}
+#info{
+    display:none;
+}
+#eduInfo, #workInfo, #aboutInfo, #contactInfo{
+    display:none;
+    position:relative;
+}
+#eduHead, #workHead, #aboutHead{
+    position:relative;
+}
+h1{
+    font-size: 100px;
+}
+h2{
+    font-size: 33px;
+}
+h3{
+    font-size: 33px;
+    text-align:left;
+    position:relative;
+}
+ul{
+    font-size: 22px;
+}
